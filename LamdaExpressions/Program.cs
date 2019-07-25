@@ -17,7 +17,7 @@ namespace LamdaExpressions
             };
 
             //ORDER BY Publication date
-            var courses = courses.OrderBy(x => x.PublishedDate);
+            //var courses = courses.OrderBy(x => x.PublishedDate);
 
             // ORDER BY DataPublicacao, CargaHoraria
             //var courses = db.courses.OrderBy(c => c.PublishedDate).ThenBy(c => c.Hours);
